@@ -1,12 +1,77 @@
 .appBar {
     border-radius: 15;
-   /* margin: 30px 100px;*/
+    /* margin: 30px 100px;*/
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 600px;
-width: 90%;
+    width: 90%;
     border: 2px solid black;
 
+}
+image{
+    margin-left: 15px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Sidebar */
+.sidebarroot{
+    display: flex;
+    flex-direction: column;
+
+}
+.sidebargrid{
+width: 100%;
+flex-direction: column;
+}
+.sidebarcontainer{
+    width: 600px;
+    margin: 35px, 0;
+    padding: 10px;
+    width: 90%;
+}
+.sidebarmargin{
+margin-top: 20px;
+
+
+}
+
+
+.sidebarpadding{
+    padding: 20px;
+}
+.btnpadding{
+    padding: 5px;
+}
+.sidebarpaper{
+    padding: 10px, 20px;
+    border: 2px solid black;
+}
+
+/* video player */
+.videoitem{
+width: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .videoitem{
+        width: 300px;
+    }
+}
+
+.videopaper{
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+}
+.videocontainer{
+justify-content: center;
+flex-direction: column;
 }
